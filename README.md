@@ -1,23 +1,23 @@
 # VELA Tracking
-> Projet d'étude
 
-Vela Tracking est un projet dans le cadre de fin de seconde année de BTS SN-IR.  
-Au bout de 9 semaines, la finalité sera de fournir un système de suivi de régates en temps réel mais également que chaque participant puisse revoir sa course sur un site internet. 
+Projet de fin de deuxième année de BTS SN-IR, réalisé sur 9 semaines.  
+L’objectif était de concevoir un système de suivi de régates en temps réel, permettant également à chaque participant de revoir sa course via une interface web.
 
 ![](https://i.imgur.com/hPafaeH.png)
 
-## Expression du besoin 
+## Contexte et objectif
 
-- Pourquoi faire ce genre de projet alors que d’autres systèmes fonctionnent pour le suivi d’une régate ?
+Pourquoi développer ce type de système alors qu’il existe déjà des solutions de suivi de régates ?
 
-Les autres systèmes s’appuient sur la technologie GPS/GPRS, mais le souci de celui-ci, c’est le coût élevé des abonnements qui y est lié.    
-Nous devons mettre en place une technique pour récupérer les positions de chaque bateau et chaque balise, tout en prenant en compte la vitesse pour les bateaux, et envoyer ces données à un "bateau-mère" qui se chargera de les traiter.  
+Les solutions existantes reposent généralement sur des technologies GPS/GPRS, avec un coût d’abonnement parfois élevé.  
+L’objectif de ce projet était donc de concevoir une alternative plus économique, capable de récupérer la position de chaque bateau et de chaque balise, ainsi que la vitesse des bateaux, puis de transmettre ces données à un bateau central chargé de les traiter.
 
-Pour récupérer les coordonnées et la vitesse de chaque bateau/balise nous utiliserons des GPS, qui n'engendre aucun coût hormis celui de l'achat du matériel. Puis pour la communication des données nous utiliserons 2 technologies, la technologie Wi-Fi et la technologie XBEE.
-
+Pour la récupération des coordonnées et de la vitesse, nous avons utilisé des modules GPS, dont le coût se limite à l’achat du matériel.  
+Pour la transmission des données, le système repose sur deux technologies de communication : le Wi-Fi et le XBee.
 
 ## Équipe
 
-7 étudiants travaillent sur le projet, dont un groupe de 4 et un groupe de 3.
+Le projet a été réalisé par une équipe de 7 étudiants, répartis en deux groupes :
 
-Le groupe de 4 se chargera de la partie portée sur le WIFI, et l'autre sur l'XBEE.
+- un groupe de 4 étudiants en charge de la partie Wi-Fi ;
+- un groupe de 3 étudiants en charge de la partie XBee.
